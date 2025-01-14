@@ -19,22 +19,28 @@
 
     <!-- Hauptbereich mit Buttons -->
     <main>
-      <button data-choice="paper" class="flex justify-center items-center">
+      <div class="flex justify-center gap-4 mt-20">
+      <button data-choice="paper" class="bg-blue-200 hover:scale-125">
         <img class="col-span-2 w-24 h-24 fill-current text-red" src="./images/paper.svg" alt="Paper" />
-      </button><br>
-      <button data-choice="scissors">
-        <img class="col-span-2 w-24 h-24 fill-current text-red" src="./images/scissors.svg" alt="Scissors" />
       </button>
-      <button data-choice="rock">
-        <img class="col-span-2 w-24 h-24 fill-current text-red" src="./images/rock.svg" alt="Rock" />
-      </button>
+    </div><br>
+    <div class="flex justify-center gap-10">
+      <button data-choice="scissors" class="bg-green-200 hover:scale-125">
+      <img class="col-span-2 w-24 h-24 fill-current text-red" src="./images/scissors.svg" alt="Scissors" />
+    </button>
+    <button data-choice="rock" class="bg-red-200 hover:scale-125">
+      <img class="col-span-2 w-24 h-24 fill-current text-red" src="./images/rock.svg" alt="Rock" />
+    </button></div>
+      
     </main>
 
     <!-- Startbildschirm -->
     <div id="startscreen">
-      <h1>Rock</h1>
-      <h2>Paper</h2>
-      <h3>Scissors</h3>
+      <div class="">
+          <h1>Rock</h1>
+          <h2>Paper</h2>
+          <h3>Scissors</h3>
+      </div><br>
       <button id="startbutton">Start Game</button>
     </div>
 
