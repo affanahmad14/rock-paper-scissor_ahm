@@ -2,7 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        metal:["MetalMania","sans-serif"],
+    },
   },
   plugins: [],
 };
